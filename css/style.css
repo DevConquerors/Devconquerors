@@ -1,0 +1,179 @@
+body {
+  background-color: #ebf6f7;
+}
+
+/* navbar starts */
+.custom-navbar-container {
+  width: 90%;
+}
+/* navbar end */
+
+/* landing page starts */
+.landing-page {
+  background: linear-gradient(to top left, #ee4a62 0%, #a4086d 92%);
+  color: white;
+}
+
+.landing-wrapper {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.landing-image-wrapper {
+  text-align: center;
+  margin: 2rem 0 2rem;
+}
+
+.landing-image {
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.home-text {
+  margin-bottom: 0;
+}
+
+.heading {
+  font-size: 3.5rem;
+  padding: 2.5rem;
+  padding-left: 0;
+}
+
+.heading-info {
+  font-size: 1.7rem;
+  padding-bottom: 6%;
+}
+
+.responsive {
+  width: 100%;
+  height: auto;
+}
+
+.contact-info {
+  font-size: 2rem;
+}
+
+.phone,.email,.address {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.phone a,.email a,.address a {
+  color: white;
+}
+/* landing page end */
+
+/* projects */
+.video {
+  width: 90%;
+  height: 100%;
+  padding: 0.5rem;
+}
+.projects {
+  text-align: center;
+}
+.project-cards {
+  margin: 1rem auto;
+  width: 70%;
+  height: 80%;
+}
+
+.features {
+  text-align: center;
+  height: 30rem;
+}
+
+.modal-button {
+  margin: 0.5rem;
+}
+@media (max-width:700px) {
+  .project-cards {
+    margin: 1rem auto;
+    width: 90%;
+    height: 70%;
+  }
+}
+.sub-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Review start */
+
+.review {
+  background-color: #EEEEFF;
+}
+
+.custom-owl {
+  margin: auto;
+}
+
+.custom-content {
+  padding-top: 4rem;
+}
+
+.custom-card-text {
+  background-color: white;
+  padding: 0 1rem;
+  height: 22rem;
+  margin-top: -4rem;
+  border-radius: 5%;
+}
+
+.custom-review-card {
+  text-align: center;
+  margin: 1rem auto;
+  width: 20rem;
+}
+
+.review-image {
+  max-width: 40%;
+  height: 8rem;
+  margin: 1rem auto;
+  border-radius: 100%;
+}
+
+/* team  */
+.team {
+  background-color: #F6F1F4;
+}
+.custom-team-card {
+  background-color: white;
+  padding: 0 1rem;
+  height: 17rem;
+  margin-top: -4rem;
+  border-radius: 5%;
+}
+/* footer */
+footer{
+  background-color: #e3f2fd;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+}
+.fa-envelope {
+  color: #009DED;
+}
+.fa-youtube {
+  color: #F70000;
+}
+.fa-whatsapp-square {
+  color: #00E676;
+}
+.fa-linkedin {
+  color: #0A66C2;
+}
+
+.copyright {
+  color: black;
+  font-size: 1.1rem;
+}
+
+.developer {
+  color: black;
+  font-size: 1.1rem;
+}
