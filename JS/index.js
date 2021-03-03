@@ -29,3 +29,8 @@ $('.owl-carousel').owlCarousel({
         }
     }
 });
+
+
+$("#staticBackdrop").on('hidden.bs.modal', function (e) {
+  $("#staticBackdrop iframe").attr("src", $("#staticBackdrop iframe").attr("src"));
+});
