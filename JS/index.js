@@ -34,3 +34,8 @@ $('.owl-carousel').owlCarousel({
 $("#closeBtn").on('click', function (e) {
   $("#staticBackdrop iframe").attr("src", $("#staticBackdrop iframe").attr("src"));
 });
+
+$("#cross").on('click', function (e) {
+  $("#staticBackdrop iframe").attr("src", $("#staticBackdrop iframe").attr("src"));
+});
+
